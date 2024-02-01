@@ -51,7 +51,6 @@ p span {
     font-weight: 300;
     line-height: 38px;
     text-transform: uppercase;
-    font-family: Chivo;
 }
 
 .upload {
@@ -74,20 +73,17 @@ p span {
     height: 20%;
 }
 
-
-
-
-
 .main p {
     margin: 16px 0 33px;
 }
 
+
 .contact {
     margin-top: 48px;
+    margin-left: 30px;
     display: flex;
     flex-direction: column;
     text-align: center;
-    align-items: center;
     gap: 16px;
 
 }
@@ -105,6 +101,7 @@ input, button {
     line-height: 28px; /* 200% */
     text-align: left;
     
+    
 }
 
 button {
@@ -112,7 +109,24 @@ button {
     background-color: #54E6AF;
     text-align: center;
     font-weight: 600;
+    
 }   
+
+button:hover {
+    cursor: pointer;
+    color: #B3FFE2;
+    box-shadow: 0px 25px 20px -20px #54E6AF7F;
+
+}
+
+.contact p {
+    position: absolute;
+    margin-top: 45px;
+    margin-left: -50px;
+    /* display: none; */
+    font-size: 14px;
+    color: red;
+}
 
 .bg-dots {
     display: none;
@@ -171,18 +185,23 @@ line-height: 56px;
 input {
     width: 427px;
     height: 56px;
-    margin-left: 47%;
 }
 
 button {
     width: 162px;
     height: 46px;
     margin-top: -67px;
-    margin-left: 125%;
+    margin-left: 80%;
+}
+
+.contact p {
+    margin-top: 70px;
+    margin-left: -200px;
 }
 
 .icons {
     width: 635px;
+    height: 50px;
     gap: 5px;
 }
 
@@ -207,6 +226,7 @@ button {
     #mobile-singer, #tablet-singer {
         display: none;
     }
+
     #desktop-singer {
         display: block;
         float: right;
