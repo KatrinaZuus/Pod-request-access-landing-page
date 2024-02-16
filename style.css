@@ -109,6 +109,9 @@ button {
     background-color: #54E6AF;
     text-align: center;
     font-weight: 600;
+    padding-left: 0px;
+    /* margin-left: 500px; */
+
     
 }   
 
